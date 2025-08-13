@@ -21,16 +21,6 @@ Objetivo: Reducir la tasa de Churn mediante insights accionables.
 
     Explorar los datos: Modifica el código según tus necesidades.
 
- Estructura del Repositorio
-
-
-telecom-churn-analisis1/
-├── telecom_churn_analysis.ipynb  # Notebook principal (Colab)
-├── data/
-│   └── TelecomX_Data.json        # Datos originales (API)
-├── images/                      # Gráficos guardados
-└── README.md                    # Este archivo
-
  Hallazgos Clave
 
      26.5% de los clientes abandonan (Churn).
