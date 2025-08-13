@@ -26,15 +26,14 @@ Hallazgos Principales
     Contratos mensuales tienen 3x más abandono que anuales
     68% de clientes con cargos >$80 abandonan
     
-Estructura del Proyecto
 telecom-churn-analisis1/
 │
 ├── notebooks/
-│   └── desafio2.ipynb          # Notebook con análisis completo (ETL + EDA)
+│   └── desafio2.ipynb          # Análisis completo (ETL + EDA)
 │
 ├── data/
-│   ├── raw/                    # Datos originales en JSON
-│   └── processed/              # Datos limpios en CSV
+│   ├── raw/                    # Datos originales (API JSON)
+│   └── processed/              # Datos limpios (CSV)
 │
 ├── outputs/
 │   ├── graficos/               # Visualizaciones guardadas
@@ -42,8 +41,8 @@ telecom-churn-analisis1/
 │   │   ├── antiguedad_vs_churn.png
 │   │   └── metodos_pago.png
 │   │
-│   └── insights.md             # Hallazgos principales
+│   └── insights.md             # Hallazgos clave
 │
-└── README.md                   # Documentación principal
+└── README.md                   # Este archivo
 
 
