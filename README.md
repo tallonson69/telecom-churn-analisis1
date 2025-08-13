@@ -1,54 +1,35 @@
 # telecom-churn-analisis1
 Análisis de evasión de clientes (Churn) en Telecom X usando Python. Incluye ETL, limpieza de datos, EDA y visualizaciones para identificar patrones de abandono.
 
+# 🚀 Análisis de Churn en Telecomunicaciones
 
-Análisis de evasión de clientes (Churn) en el sector telecomunicaciones usando Python y Google Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tallonson69/telecom-churn-analisis1/blob/main/desafio2.ipynb)
 
- Descripción
+## 📋 Descripción
+Análisis completo de evasión de clientes (Churn) para compañía de telecomunicaciones, realizado en Google Colab. Proyecto incluye:
 
-Este proyecto analiza los patrones de abandono de clientes (Churn) en una empresa de telecomunicaciones mediante:
-✅ ETL (Extracción, Transformación y Carga) desde una API JSON
-✅ Limpieza de datos (manejo de valores nulos, estandarización)
-✅ Análisis Exploratorio (EDA) con visualizaciones en Matplotlib
-✅ Identificación de factores clave que influyen en la evasión
+- Extracción de datos desde API JSON
+- Proceso ETL con Pandas
+- Análisis exploratorio (EDA)
+- Visualizaciones con Matplotlib
+- Recomendaciones estratégicas
 
-Objetivo: Reducir la tasa de Churn mediante insights accionables.
- Cómo Usar
+## 🔍 Datos Analizados
+- **Variables clave**: 
+  - `tenure` (antigüedad)
+  - `MonthlyCharges` (cargos mensuales)
+  - `Contract` (tipo de contrato)
+  - `PaymentMethod` (método de pago)
 
-    Abrir el Notebook en Colab: Haz clic en el botón https://colab.research.google.com/assets/colab-badge.svg.
-
-    Ejecutar paso a paso: El notebook está listo para correr en Google Colab sin configuraciones adicionales.
-
-    Explorar los datos: Modifica el código según tus necesidades.
-
- Hallazgos Clave
-
-     26.5% de los clientes abandonan (Churn).
-
-     Clientes nuevos (<20 meses) son más propensos a irse.
-
-     Cargos mensuales altos (>$80) correlacionan con mayor Churn.
-
-     Contratos mensuales tienen 43% de tasa de abandono vs 11% en anuales.
-
- Dependencias
-
-El proyecto usa las siguientes librerías (instaladas automáticamente en Colab):
-python
-
-pandas, numpy, matplotlib, requests
-
- Recomendaciones
-
-    Fidelizar clientes nuevos: Descuentos en primeros 12 meses.
-
-    Promover contratos anuales: Ofrecer beneficios adicionales.
-
-    Optimizar precios: Revisar planes con cargos >$80.
-
-📄 Licencia
-
-MIT - Libre para uso y modificación.
-
-✉️ Contacto: @tallonson69
-Repositorio: github.com/tallonson69/telecom-churn-analisis1
+Hallazgos Principales
+    72% del Churn ocurre en primeros 18 meses
+    Contratos mensuales tienen 3x más abandono que anuales
+    68% de clientes con cargos >$80 abandonan
+    
+Estructura del Proyecto
+telecom-churn-analisis1/
+├── desafio2.ipynb          # Notebook principal
+├── data/
+│   ├── raw/               # Datos crudos
+│   └── processed/         # Datos limpios
+└── README.md
