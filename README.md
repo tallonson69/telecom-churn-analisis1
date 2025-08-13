@@ -26,10 +26,4 @@ Hallazgos Principales
     Contratos mensuales tienen 3x más abandono que anuales
     68% de clientes con cargos >$80 abandonan
     
-Estructura del Proyecto    
-telecom-churn-analisis1/
-    desafio2.ipynb          # Notebook principal
-       data/
-           raw/             # Datos crudos
-           processed/       # Datos limpios
-    README.md
+
